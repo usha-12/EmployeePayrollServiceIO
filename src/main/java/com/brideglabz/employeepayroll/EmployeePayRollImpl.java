@@ -9,10 +9,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class EmployeePayRollImpl {
+    //creating object
     private List<EmployeePayRollData> employeePayrollList = new ArrayList<EmployeePayRollData>();
     Scanner scanner = new Scanner(System.in);
-    private static final String FILE_PATH = "C:\\Users\\User\\Desktop";
+    private static final String FILE_PATH = "C:\\Users\\Desktop";
 
+    /*
+     * Creating method to print data
+     */
     public void readEmployeeDataFromConsole() {
         System.out.println("Enter Employee Id");
         int id = scanner.nextInt();
@@ -73,5 +77,15 @@ public class EmployeePayRollImpl {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public long readDataFromFile() {
+        try {
+            String data = Files.readString(Paths.get(FILE_PATH));
+            System.out.println(data);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return countEntries();
     }
 }

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1963afd-2587-4e7b-a268-3d93db57e263" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/employeepayroll/EmployeePayrollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/employeepayroll/EmployeePayrollTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/employeepayroll/NioApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/employeepayroll/NioApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,9 +1,7 @@
 package com.brideglabz.employeepayroll;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import org.junit.jupiter.api.Test;
 
 public class EmployeePayrollTest {
     @Test
@@ -14,7 +12,7 @@ public class EmployeePayrollTest {
         employeePayrollService.addEmployee(new EmployeePayRollData(3, "Mark Z", 30000));
         employeePayrollService.writeEmployeeDataToFile();
         long entries = employeePayrollService.countEntries();
-        Assertions.assertEquals(3, entries);
+        assertEquals(3, entries);
     }
 
     @Test
@@ -26,7 +24,7 @@ public class EmployeePayrollTest {
         employeePayrollService.writeEmployeeDataToFile();
         employeePayrollService.printData();
         long entries = employeePayrollService.countEntries();
-        Assertions.assertEquals(3, entries);
+        assertEquals(3, entries);
     }
 
     @Test
@@ -38,6 +36,13 @@ public class EmployeePayrollTest {
         employeePayrollService.writeEmployeeDataToFile();
         long entries = employeePayrollService.countEntries();
         System.out.println("Number of entries are " + entries);
-        Assertions.assertEquals(3, entries);
+        assertEquals(3, entries);
+    }
+
+    @Test
+    public void givenFileOnReadindFromFileShouldMatchEmployeeCount() {
+        EmployeePayRollImpl employeePayrollService = new EmployeePayRollImpl();
+        long entries = employeePayrollService.readDataFromFile();
+        assertEquals(3, entries);
     }
 }
