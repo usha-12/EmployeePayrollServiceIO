@@ -7,5 +7,4 @@ public class EmployeePayRollMain {
         employeePayrollService.readEmployeeDataFromConsole();
         employeePayrollService.writeEmployeeDataInConsole();
     }
-
 }
