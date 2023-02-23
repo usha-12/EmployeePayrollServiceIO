@@ -1,12 +1,11 @@
 package com.brideglabz.employeepayroll;
-
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class EmployeePayRollMain {
-    ArrayList<EmployeePayRollData> employeePayrollDataList = new ArrayList<>();
-    EmployeePayRollImpl employeePayrollImpl = new EmployeePayRollImpl(employeePayrollDataList);
-    Scanner consoleInputReader = new Scanner(System.in);
-		employeePayrollImpl.readEmployeePayrollData(consoleInputReader);
-		employeePayrollImpl. writeEmployeePayrollData();
+    public static void main(String[] args) {
+
+
+        EmployeePayRollImpl employeePayrollService = new EmployeePayRollImpl();
+        System.out.println("Welcome to employee payRoll");
+        employeePayrollService.readEmployeeDataFromConsole();
+        employeePayrollService.writeEmployeeDataInConsole();
+    }
 }

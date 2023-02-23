@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1963afd-2587-4e7b-a268-3d93db57e263" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/Java8WatchServiceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayrollService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/Java8WatchServiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/Java8WatchServiceExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.EmployeePayrollTest">
     <configuration name="EmployeePayRollMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brideglabz.employeepayroll.EmployeePayRollMain" />
       <module name="EmployeePayrollIO" />
@@ -58,8 +56,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeePayrollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmployeePayrollIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brideglabz.employeepayroll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brideglabz.employeepayroll" />
+      <option name="MAIN_CLASS_NAME" value="com.brideglabz.employeepayroll.EmployeePayrollTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeePayrollTest" />
         <item itemvalue="Application.EmployeePayRollMain" />
       </list>
     </recent_temporary>
