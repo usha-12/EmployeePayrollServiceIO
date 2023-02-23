@@ -4,6 +4,7 @@ public class EmployeeData {
     private int employeeId;
     private String employeeName;
     private int employeeSalary;
+
     public EmployeeData(int employeeId, String employeeName, int employeeSalary) {
         super();
         this.employeeId = employeeId;
