@@ -9,9 +9,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class EmployeePayRollImpl {
-    private List<EmployeePayRollData> employePayrollList = new ArrayList<EmployeePayRollData>();
+    private List<EmployeePayRollData> employeePayrollList = new ArrayList<EmployeePayRollData>();
     Scanner scanner = new Scanner(System.in);
-    private static final String FILE_PATH = "C:\\Users\\MY PC\\Desktop\\PayRoll.txt";
+    private static final String FILE_PATH = "C:\\Users\\User\\Desktop";
 
     public void readEmployeeDataFromConsole() {
         System.out.println("Enter Employee Id");
@@ -20,21 +20,21 @@ public class EmployeePayRollImpl {
         String Name = scanner.next();
         System.out.println("Enter the salary");
         int salary = scanner.nextInt();
-        employePayrollList.add(new EmployeePayRollData(id, Name, salary));
+        employeePayrollList.add(new EmployeePayRollData(id, Name, salary));
     }
 
     public void writeEmployeeDataInConsole() {
-        System.out.println("Writing Employee Pay Roll Data \n" + employePayrollList);
+        System.out.println("Writing Employee Pay Roll Data \n" + employeePayrollList);
     }
 
     public void addEmployee(EmployeePayRollData employee) {
-        employePayrollList.add(employee);
+        employeePayrollList.add(employee);
     }
 
     public void writeEmployeeDataToFile() {
         checkFile();
         StringBuffer empBuffer = new StringBuffer();
-        employePayrollList.forEach(employee -> {
+        employeePayrollList.forEach(employee -> {
             String employeeDataString = employee.toString().concat("\n");
             empBuffer.append(employeeDataString);
         });
@@ -45,13 +45,10 @@ public class EmployeePayRollImpl {
         }
     }
 
-    // method to create file if file doesn't exist
     private void checkFile() {
         File file = new File(FILE_PATH);
         try {
-            // checking file already exists
             if (!file.exists()) {
-                // if not creating a new file
                 file.createNewFile();
                 System.out.println("Created a file at " + FILE_PATH);
             }
@@ -68,5 +65,13 @@ public class EmployeePayRollImpl {
             e.printStackTrace();
         }
         return entries;
+    }
+
+    public void printData() {
+        try {
+            Files.lines(Paths.get(FILE_PATH)).forEach(System.out::println);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
