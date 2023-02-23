@@ -9,7 +9,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/EmployeePayRollMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/Java8WatchServiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/employeepayroll/Java8WatchServiceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/employeepayroll/EmployeePayrollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/employeepayroll/EmployeePayrollTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/employeepayroll/NioApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/employeepayroll/NioApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
